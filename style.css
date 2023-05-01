@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    width: 100%;
+    height: 700px;
+    background-color: aqua;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.main{
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main1{
+    width: 100%;
+    height: 700px;
+    background-color:palevioletred;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(176, 176, 181);
+    border-radius: 15px;
+    position:absolute;
+    left:570px;
+    top: 180px;
+    
+}
+.main2{
+    width: 100%;
+    height: 700px;
+    background-color:rgb(117, 107, 107);
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    
+}
+.cards{
+    width: 100%;
+    height: 700px;
+    
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+     
+}
+.card1{
+    width: 200px;
+    height: 150px;
+    background-color:rgb(171, 162, 165);
+}
+.card2{
+    width: 200px;
+    height: 150px;
+    background-color:rgb(191, 100, 130);
+    
+}
+.card3{
+    width: 200px;
+    height: 150px;
+    background-color:rgb(246, 6, 86);
+}
+.main3{
+    width: 100%;
+    height: 700px;
+   background-color:rgb(25, 25, 66) ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    background-color:aquamarine;
+
+     
+    
+}
+.card{
+    width: 100%;
+     height: 90%;
+    background-color: rgb(211, 24, 211);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.card4{
+    width: 200px;
+    height: 250px;
+    background-color: blueviolet;
+    
+
+}
+.card5{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(86, 63, 108);
+    
+    
+}
+
+.card6{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(64, 59, 69);
+    
+}
+.main4{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 15, 15);
+}
+form{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(24, 217, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+form input{
+    width: 400px;
+    height: 20px;
+    border-radius: 6px;
+    
+}
+form span{
+    width: 400px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
